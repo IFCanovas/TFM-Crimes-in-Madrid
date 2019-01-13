@@ -11,7 +11,7 @@ https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5
 Anyway, I have downloaded the data to work with and I have stored it in '/Delitos'.
 To clean the Data I have used R. The file to work with is 1_0_GettingTheCrimes.R, whose get the data from the path '/Delitos'.
 
-This file is support by Auxiliar.R
+This file is support by 1_1_Auxiliar.R
 The reason for using Auxiliar is to get inside the file the dates of every brief.
 Every brief has the data of the crimes in a detail file, and the month-Year is in the name of the file. So, I made a Auxiliar.csv to associate the dates and the names as a dictionary.
 It is high recommended not to run again Auxiliar.R, because the relation between the files' names and the dates could be broken (at least, don´t rewrite Auxiliar.csv) 
