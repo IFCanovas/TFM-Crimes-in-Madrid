@@ -10,8 +10,12 @@ https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5
 
 Anyway, I have downloaded the data to work with and I have stored it in '/Delitos'.
 To clean the Data I have used R. The file to work with is 1_0_GettingTheCrimes.R, whose get the data from the path '/Delitos'.
+I add the code District (it is in the same order as they are in every file)
+This code allows me to add other information, as graphics data in Tableau.
+I have downloaded the poligonal Districts in shp format, from here:
+https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=46b55cde99be2410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
 
-This file is support by 1_1_Auxiliar.R.
+This R file is support by 1_1_Auxiliar.R.
 The reason for using Auxiliar is to get inside the file the dates of every brief.
 Every brief has the data of the crimes in a detail file, and the month-Year is in the name of the file. So, I made a Auxiliar.csv to associate the dates and the names as a dictionary.
 It is high recommended not to run again Auxiliar.R, because the relation between the files' names and the dates could be broken (at least, don´t rewrite Auxiliar.csv) 
@@ -22,3 +26,4 @@ I work with it in python, to get some visualizations in order to obtain the asso
 I can show that there is an association between two kinds of them, and also between some Madrid Districts.
 The file is named 2CrimeAnalysis.ipynb
 
+After that first analysis, I open the data I have worked with in python, in tableau. I also join the shapes from the Districts. This exercise allows me to see if there is a neigbourg relation between Districs.
