@@ -14,6 +14,7 @@ I add the code District (it is in the same order as they are in every file)
 This code allows me to add other information, as graphics data in Tableau.
 I have downloaded the poligonal Districts in shp format, from here:
 https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=46b55cde99be2410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+The complet file is downloaded in /Graficos.
 
 This R file is support by 1_1_Auxiliar.R.
 The reason for using Auxiliar is to get inside the file the dates of every brief.
@@ -24,6 +25,6 @@ Once I have my Data in R, I export it to a csv file.
 
 I work with it in python, to get some visualizations in order to obtain the association between the kind of Crimes and the Districts.
 I can show that there is an association between two kinds of them, and also between some Madrid Districts.
-The file is named 2CrimeAnalysis.ipynb
+The file is named 2_CrimeAnalysis.ipynb
 
 After that first analysis, I open the data I have worked with in python, in tableau. I also join the shapes from the Districts. This exercise allows me to see if there is a neigbourg relation between Districs.
