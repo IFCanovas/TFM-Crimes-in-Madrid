@@ -24,7 +24,15 @@ It is high recommended not to run again Auxiliar.R, because the relation between
 Once I have my Data in R, I export it to a csv file.
 
 I work with it in python, to get some visualizations in order to obtain the association between the kind of Crimes and the Districts.
-I can show that there is an association between two kinds of them, and also between some Madrid Districts.
+I can show that there is an association between two kinds of them (the drugs ones), and also between some Madrid Districts.
 The file is named 2_CrimeAnalysis.ipynb
 
-After that first analysis, I open the data I have worked with in python, in tableau. I also join the shapes from the Districts. This exercise allows me to see if there is a neigbourg relation between Districs.
+After that first analysis, I open the data I have worked with in python, in tableau. I also join the shapes from the Districts. This exercise allows me to see if there is a neigbourg relation between Districs. I made the exercise, and I uploaded to tableau public:
+
+drugs crimes
+https://public.tableau.com/profile/isabel1894#!/vizhome/GraphicsAnalysis/DrugsAssociationCrimes?publish=yes
+
+other crimes: 
+https://public.tableau.com/profile/isabel1894#!/vizhome/GraphicsAnalysis/OtherCrimes?publish=yes
+
+Anyway, I have uploaded the file (and the graphic data) to git hub (GraphicsAnalysis.twb) where I get some importants ideas...
