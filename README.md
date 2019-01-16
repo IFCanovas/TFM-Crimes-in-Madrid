@@ -1,6 +1,6 @@
 # TFM-Crimes-in-Madrid
 A Data Science Project about Crimes in Madrid and its districts.
-
+(JAN19-Summary Crimes in Madrid.docx)
 -------------------------------------------------------------------------
 
 In the city of Madrid, Spain, Local Police has been picking all kind of crimes in the city and writing in an excel file every Month from 2014 until now.
