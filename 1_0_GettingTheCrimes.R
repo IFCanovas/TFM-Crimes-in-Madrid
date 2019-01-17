@@ -11,8 +11,9 @@
 ## month since 2014. I have downloaded the data to work with. But first, they have  ##
 ## to be joined and cleaned, before analysing.                                      ##
 ## So, this exercise consist in using R to collect the downloaded information and   ##
-## organize it in an unique file to work with.                                      ##                                  ##
+## organize it in an unique file to work with.                                      ##
 ##                                                                                  ##
+## The data must be in "/Delitos". Otherway it does not work                        ##
 ##                                                                                  ##
 ######################################################################################
 ######################################################################################
