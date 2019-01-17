@@ -37,3 +37,7 @@ other crimes:
 https://public.tableau.com/profile/isabel1894#!/vizhome/GraphicsAnalysis/OtherCrimes?publish=yes
 
 Anyway, I have uploaded the file (and the graphic data) to git hub (GraphicsAnalysis.twb) where I get some importants ideas...
+
+Finally, there is a web, where you can find a summary about the proyect and its conclusions: https://ifcanovas.github.io/
+
+Thank you for reading this. :-)
